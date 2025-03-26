@@ -17,6 +17,7 @@ TechStack : React js , Python , numpy , pandas , BlockChain , Tailwind CSS , SQL
 
 
 How to live website 
+
 Zip  – https://drive.google.com/file/d/1AgCzSrjnmH0MrTz_LsGZUae2ulPM7oDg/view?usp=sharing  
 Download zip / Extract File 
 File – Gamma_x_project 
