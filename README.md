@@ -15,9 +15,29 @@ Urban Mobility & Logistics in Delhi: Delhi’s traffic congestion worsens delive
 
 TechStack : React js , Python , numpy , pandas , BlockChain , Tailwind CSS , SQL , Tensor Flow , Node , Web Scrapping
 
-How You can use it locally :
-download zip file 
-extreact pdf from zip 
-open folder in vs code
-run - npm run dev 
-if error shown just use chatgpt to resolve the error may be arise due to lack of dependecny
+
+How to live website 
+Zip  – https://drive.google.com/file/d/1AgCzSrjnmH0MrTz_LsGZUae2ulPM7oDg/view?usp=sharing  
+Download zip / Extract File 
+File – Gamma_x_project 
+cd Urban-Mobility
+File – Urban-Mobility 
+npm run dev 
+cd server 
+npm run dev / server.js 
+
+If server will not live after this then just delete and redownload packages 
+rm -rf node_modules package-lock.json  
+npm cache clean --force             
+npm install             
+
+If map of command center  is not working then : 
+Generate new access token with post request 
+Post link ( https://outpost.mapmyindia.com/api/security/oauth/token?grant_type=client_credentials&client_id=96dHZVzsAuu0K5FuGuoplWkcp96Ckn7fZ5ZMiBG8MF4aOfi7Mh7CUQHqUHGGzV6eqrbKf0-dJRAkiJRrRrNY4g==&client_secret=lrFxI-iSEg_z8GBBEFCYenMqGIVZnqDuIFDHXmElyVnFi4pe9Z01BHSnukKraKI8175tHWOTFWnid5vlyqxR3LLPBnbNKqot )
+
+
+
+
+
+
+
