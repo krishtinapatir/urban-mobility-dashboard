@@ -33,10 +33,11 @@ npm cache clean --force
 npm install             
 
 If map of command center  is not working then : 
-Generate new access token with post request 
+Generate new access token from POSTMAN with post request 
 Post link ( https://outpost.mapmyindia.com/api/security/oauth/token?grant_type=client_credentials&client_id=96dHZVzsAuu0K5FuGuoplWkcp96Ckn7fZ5ZMiBG8MF4aOfi7Mh7CUQHqUHGGzV6eqrbKf0-dJRAkiJRrRrNY4g==&client_secret=lrFxI-iSEg_z8GBBEFCYenMqGIVZnqDuIFDHXmElyVnFi4pe9Z01BHSnukKraKI8175tHWOTFWnid5vlyqxR3LLPBnbNKqot )
 
 
+Deploy Link: https://urban-mobility-dashboard.vercel.app/
 
 
 
