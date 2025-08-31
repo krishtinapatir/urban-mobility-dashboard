@@ -767,11 +767,11 @@ const handleRouteSelection = (route) => {
 
 
 
-{directionPluginRef.current?.data ? (() => {
-    const routes = directionPluginRef.current.data.map((route, i) => {
-        const distance = parseFloat(route.distance);
-        const mileage = parseFloat(activeVehicle.veh_mileage);
-        const fuelType = activeVehicle.fuel_type.toLowerCase();
+{directionPluginRef?.current?.data ? (() => {
+    const routes = directionPluginRef?.current?.data?.map((route, i) => {
+        const distance = parseFloat(route?.distance);
+        const mileage = parseFloat(activeVehicle?.veh_mileage);
+        const fuelType = activeVehicle?.fuel_type.toLowerCase();
         
         const emissionFactors = {
             petrol: 2.31,
