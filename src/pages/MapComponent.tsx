@@ -4,7 +4,7 @@ const MapComponent = () => {
   const [location, setLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [map, setMap] = useState<any>(null);
   const [marker, setMarker] = useState<any>(null);
-  const mapplsApiKey = "6a2c170b-270f-4fe9-8fb4-80e012318e9b"; // Replace with your API key
+  const mapplsApiKey = "46eace68-e598-4d81-8bae-ac4830276bde"; // Replace with your API key
 
   useEffect(() => {
     if (navigator.geolocation) {
