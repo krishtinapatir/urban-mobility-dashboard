@@ -15,7 +15,7 @@ const getActiveVehicle = () => {
   return activeVehicle ? JSON.parse(activeVehicle) : null;
 };
 
-const MAPPLS_API_KEY = "46eace68-e598-4d81-8bae-ac4830276bde";
+const MAPPLS_API_KEY = "f7ea2feb-ee06-46b8-9225-248800f8df42";
 
 // Add these interfaces at the top of the file
 interface Location {
